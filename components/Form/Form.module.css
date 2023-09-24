@@ -1,0 +1,159 @@
+.Container{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+  
+}
+
+.contato{
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    color: #69e678;
+    
+}
+
+.formArea{
+    box-shadow: 1px 1px 10px black;
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #000;
+     
+}
+
+.camposArea{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    width: 100%;
+
+    background-color: #000;
+    /* margin-bottom: 150px; */
+
+
+    height: 80px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+ 
+
+.camposArea input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #303030;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 27px;
+    outline: none;
+    padding: 0 10px;
+    color: #000;   
+    color: white; 
+
+    
+    
+}
+ 
+ 
+
+.camposArea input:focus ~label{
+    transition: 1s;
+    color: #69e678;
+     transform: translate(-10px, -30px);
+     
+}
+
+ 
+ 
+
+.camposArea label{
+    color: #585858;
+    position: absolute;
+    left: 10px;
+    bottom: 2px;
+    transition: 1s;
+    margin-bottom: 25px;
+}  
+
+.barra{
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+
+    background: linear-gradient(270deg, #69e678 33%, #29ccc4 66%, #17161d 100% );
+    z-index: 0;
+    transition: 1s;
+}
+
+
+.camposArea input:focus ~.barra{
+    width: 100%;
+}
+
+.message{
+     
+    width: 100%;
+    height: 90px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: white;
+ 
+}
+.message textarea {
+    width: 95%;
+    height: 80%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid  #524f4f;
+    color: white;
+    margin-left: 5px;
+    
+
+}
+
+ 
+
+.button{
+    width: 100%;
+    height: auto;
+}
+
+.button button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    background-color: #69e678;
+    cursor: pointer;
+    margin-top: 10px;
+     
+    
+}
+
+.error{
+    color: red;
+    width: 95%;
+    position: absolute;
+    bottom: -25px;
+    left: 10px;
+ 
+}
+ 
+ 
