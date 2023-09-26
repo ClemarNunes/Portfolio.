@@ -1,26 +1,60 @@
-import { useState } from 'react';
+import { ReactElement, useState } from 'react';
 import styles from './Projects.module.css';
+import Link from 'next/link';
 
-const Project = () => {
-    const [black, setBlack] = useState(false);
+type Props = {
+    setModalStatus: (setModalStatus:boolean) => void;
+    item: Props2;
+    
+    onClick: (item: any ) => void
+     
+}
+
+type Props2 = {
+    titleProject: string;
+    image: string;
+    description: string;
+}
+
+
+
+
+const Project = ({ setModalStatus, item,   onClick }: Props) => {
+    
  
-    const teste = () => {
-       setBlack(true)
+    const handleClick = () => {
+     
+       onClick(item)
+        
+       setModalStatus(true)
+      
+       
     }
 
-    const teste2 = () => {
-        setBlack(false)
-    }
+    
     return(
-        <div className={styles.Container}>
+        <div className={styles.Container} onClick={handleClick} >
+
             <div className={styles.projectArea}>
-                <img src="/assets/2.png" width={250} height={'auto'} alt="" />
-                <div></div>
+              
+                <img src={item.image} height={'auto'} width={250} alt="" />
+            
+                <div className={styles.tela}>
+                    {/* <div> {item.titleProject} </div> */}
+                     {/* <Link href={'https://github.com/ClemarNunes/DevsFood'}>{item.titleProject} </Link> */}
+                      <a href="https://github.com/ClemarNunes/DevsFood">{item.titleProject} </a>
+                </div>
             </div>
-            <div onMouseOver={teste} onMouseOut={teste2} className={styles.tela} style={{opacity: black == true ? 0.7 : 0  }}></div>
-            <div className={styles.teste}>testando</div>
+
+           
+          
+
         </div>
     );
 }
 
+
+ {/* style={{opacity: black == true ? 0.7 : 0  }} */}
+ 
+    {/* <img src="/assets/2.png" width={250} height={'auto'} alt="" /> */}
 export default Project;

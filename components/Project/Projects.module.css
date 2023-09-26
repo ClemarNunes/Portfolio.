@@ -1,9 +1,30 @@
 .Container{
-    border: 1px solid red;
+   border: 1px solid #d8d7d7;
     position: relative;
     overflow: hidden;
     
 }
+
+.projectArea{
+     
+    width: 100%;
+    /* background-image: url('/assets/2.png') ; */
+    background-position: center;
+    height: auto;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    transition: 1s;
+}
+
+.projectArea:hover{
+   transform: scale(1.05);
+   transition: 1s;
+
+    
+}
+
+ 
 
 .tela{
     z-index: 1;
@@ -14,13 +35,52 @@
     height: 100%;
     left: 0;
     top: 0;
-    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0);
     transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* transition: all ease-out 1s; */
+    /* border: 1px solid red; */
+    
 }
-.projectArea{
+
+.tela a{
+    transform: translateX(-200px);
+    transition: all 0.5s ease-in-out;
+   
+}
+
+.tela:hover a{
+    transform: translateX(0);
+    transition: 0.5s;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+ 
+ 
+
+.tela:hover{
+    background-color: rgba(0, 0, 0, 0.6);
     border: 1px solid blue;
-    width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
 
 .teste{
     margin-right: 10px;
@@ -35,4 +95,4 @@
    justify-content: center;
    
 
-}
+} */

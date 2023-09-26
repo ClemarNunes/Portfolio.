@@ -1,0 +1,87 @@
+.Container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalBody{
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    position: relative;
+    transition: all ease-in-out 10s;
+    
+    /* transform: translate(400px 100px); */
+    /* translate: 80px 90px;
+    transition: 1s ease-in-out all; */
+
+    
+     
+}
+
+.ModalImg{
+    border: 1px solid red;
+    height: 60%;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.ModalInfoArea{
+    height: 40%;
+    width: 100%;
+    /* border: 5px solid blue; */
+}
+
+.ModalInfo{
+    padding: 15px 30px;
+    /* border: 1px solid black; */
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.ModalInfo span:first-child{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.ModalButton{
+    /* border: 1px solid red; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    background-color: #000;
+   
+}
+
+.ModalButton button{
+    height: 100%;
+    background-color: #000;
+    width: 50%;
+    display: flex;
+    color: white;   
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
+.ModalButton button:hover{
+  color: #69e678;
+   font-size: 15px;
+}
