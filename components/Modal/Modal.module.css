@@ -17,16 +17,13 @@
     position: relative;
     transition: all ease-in-out 10s;
     
-    /* transform: translate(400px 100px); */
-    /* translate: 80px 90px;
-    transition: 1s ease-in-out all; */
-
+  
     
      
 }
 
 .ModalImg{
-    border: 1px solid red;
+    
     height: 60%;
     flex: 2;
     display: flex;
