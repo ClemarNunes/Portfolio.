@@ -48,7 +48,7 @@ const Projects = () => {
 
             {/* <div>
                 <Slider />
-            </div> */}
+            </div> */} 
 
 
         </div>
