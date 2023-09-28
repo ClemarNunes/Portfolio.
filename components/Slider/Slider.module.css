@@ -1,0 +1,57 @@
+ .Container{
+    
+    height: 100%;
+    width: 100%;
+ }
+
+ .swiper {
+  width: 990px;
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  /* border: 1px solid blue; */
+
+
+} 
+
+ .swiperSlide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  /* border: 1px solid red; */
+ 
+  
+  
+  
+} 
+
+ .swiperSlide img {
+  display: block;
+  width: 100%;
+  width: 410px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+   
+} 
+
+
+ .title{
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+    width: 410px;
+    text-align: center;
+    font-weight: 700;
+ }
+
+ .title:hover{
+    color: #69e678;
+    cursor: pointer;
+ }
+
+ .teste{
+    /* border: 1px solid red; */
+ }

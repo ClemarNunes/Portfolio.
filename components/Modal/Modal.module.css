@@ -8,14 +8,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
 }
 
 .ModalBody{
-    width: 450px;
-    height: 450px;
+    width: 850px;
+   
+    height: 600px;
     background-color: white;
-    position: relative;
-    transition: all ease-in-out 10s;
+    
     
   
     
@@ -23,16 +24,18 @@
 }
 
 .ModalImg{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
     
-    height: 60%;
-    flex: 2;
-    display: flex;
-    justify-content: center;
+  
+    /* border: 11px solid red; */
+    
     
 
 }
 .ModalInfoArea{
-    height: 40%;
+    height: 30%;
     width: 100%;
     /* border: 5px solid blue; */
 }
@@ -40,45 +43,52 @@
 .ModalInfo{
     padding: 15px 30px;
     /* border: 1px solid black; */
-    height: 60%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
     
 }
+
+
+.ModalButton{
+   /* border: 1px solid blue; */
+    background-color: black;
+    border: 1px solid black;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    
+
+   
+}
+
 .ModalInfo span:first-child{
     font-size: 18px;
     font-weight: bold;
 }
-
-
-
-.ModalButton{
-    /* border: 1px solid red; */
-    height: 40%;
-    width: 100%;
-    display: flex;
-    background-color: #000;
-   
-}
-
-.ModalButton button{
+ 
+.more, .closer{
     height: 100%;
-    background-color: #000;
+    /* background-color: #000; */
     width: 50%;
     display: flex;
     color: white;   
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+   
     border: none;
     font-weight: bold;
-    font-size: 13px;
-    
+    font-size: 15px;
+    /* cursor: pointer; */
 }
 
-.ModalButton button:hover{
-  color: #69e678;
-   font-size: 15px;
+.more:hover, .closer:hover{
+    color: #69e678;
+    /* border: 1px solid #ccc; */
+    
+    
+    cursor: pointer;
 }

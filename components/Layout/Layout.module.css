@@ -2,32 +2,11 @@
     height: 100vh;
     width: 100%;
     /* border: 1px solid red; */
-    /* background-image: linear-gradient(#3cbe88 10%, rgb(177, 175, 175) ); */
+    
     background-image: linear-gradient(#e8ebe8 60%, rgb(124, 119, 119) );
 }
 
-
-/* .oi{
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    height: 80%;
-    background: #000;
-    transform-origin: bottom;
-
-}
-
-.fora{
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    height: 80%;
-    background: #000;
-    transform-origin: top;
-
-} */
+ 
 
 .conteudo{
     height: 79vh;
