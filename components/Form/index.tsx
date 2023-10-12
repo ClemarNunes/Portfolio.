@@ -22,7 +22,7 @@ const Form = () => {
     const [nameInput, setNameInput] = useState('');
     const [emailInput, setEmailInput] = useState('');
     const [assuntoInput, setAssuntoInput] = useState('');
-    const [textArea, setTextArea] = useState(''); 
+    // const [textArea, setTextArea] = useState(''); 
     const {register, handleSubmit, formState: {errors}} = useForm<CreateUserFormData>({
         resolver: zodResolver(createUserFormSchema)
     })

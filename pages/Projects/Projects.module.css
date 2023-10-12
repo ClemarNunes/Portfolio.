@@ -1,53 +1,36 @@
-.Container{
-    width: 100%;
+.Container {
+    width: 100vw;
     height: 100%;
     
-  
-    
+   
 }
 
-.areaProject{
-  
+
+.areaProject {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
-     padding: 15px;
-     width: 100%;
-     height: 100%;
-     /* border: 1px solid red; */
-      overflow: auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border: 1px solid red;
     
 }
 
-.projects{
+.title {}
+
+.projects {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    justify-content: center;
+    justify-items: center;
     display: flex;
-    justify-content: space-between;
-    width: 1400px;
-    max-width: 1400px;
-    height: 620px;
-    margin-top: 30px;
- 
-    align-items: center;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* overflow-y: hidden; */
-    /* border: 1px solid red; */
-    /* max-height: 100px; */
-    /* overflow: auto; */
-  
-     
-    
+    flex-direction: column;
 }
 
-.test{
- 
-    height: 260px;
-    width: 430px;
-    /* border-radius: 20px; */
-    /* border: 11px solid red; */
-    margin-bottom: 50px;
+.ProjectSection {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
 }
-
- 

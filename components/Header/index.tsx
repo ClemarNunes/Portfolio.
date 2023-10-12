@@ -8,7 +8,7 @@ const Header = () => {
             <div className={styles.Container}>
                 <ul>
                     <li className={styles.divisao}><Link className={styles.al} href='/'>Home</Link></li>
-                    <li className={styles.divisao}> <Link href='/About'>About me</Link> </li>
+                    <li className={styles.divisao}> <Link href='/About'>About</Link> </li>
                     <li className={styles.divisao}> <Link href='/Projects'>Projects</Link> </li>
                     <li className={styles.divisao}> <Link href='/Skills'>Skills</Link> </li>
                     <li className={styles.divisao}> <Link href='/Contact'>Contact</Link> </li>

@@ -6,3 +6,71 @@
   
     display: flex;
 }
+
+.ContactArea{
+    flex: 1;
+    /* border: 1px solid blue; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.FormArea{
+    flex: 1;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    height: 3px;
+    width: 290px;
+    background-color: #000;
+    opacity: 40%;
+}
+
+.contactInformationArea{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    margin-top: 20px;
+   width: 250px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   height: 150px;
+   justify-content: space-between;
+}
+
+.contactInformationEmail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactInformation{
+    display: flex;
+    /* border: 1px solid blue; */
+    align-items: center;
+   
+    
+}
+
+.contactInformation span{
+    margin-left: 19px;
+}
+
+.contactIcon{
+    /* border: 1px solid    green; */
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contactInformationEmail img:hover,.contactInformation img:hover {
+    transform: scale(1.1);
+
+}

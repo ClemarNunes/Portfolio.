@@ -20,7 +20,7 @@ const Animation = ({ children }: any) => {
           {children}
         </motion.div>
 
-// transition={{  duration: 2}}
+ 
   
         // transition={{repeat:Infinity,delay:1,ease:"easeInOut",type:"spring"}}
     );

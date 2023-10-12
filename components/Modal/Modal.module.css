@@ -4,65 +4,119 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
+    z-index: 2;
 }
 
 .ModalBody{
-    width: 850px;
-   
-    height: 600px;
-    background-color: white;
-    
-    
-  
-    
-     
+    width: 750px;
+    height: 450px;
+    overflow-x: hidden;
 }
 
 .ModalImg{
-    width: 100%;
-    height: 70%;
+    width: 500%;
+    height: 80%;
     overflow: hidden;
-    
-  
-    /* border: 11px solid red; */
-    
-    
-
+    margin-left: 0%;
+    transition: 1s;
 }
+
 .ModalInfoArea{
-    height: 30%;
+    height: 20%;
     width: 100%;
-    /* border: 5px solid blue; */
 }
 
-.ModalInfo{
-    padding: 15px 30px;
-    /* border: 1px solid black; */
-    height: 50%;
+ .nextSlide{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -250px;
+    right: -800px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    
-}
+   border-radius: 30px;
+   cursor: pointer;
+   
+ }
+
+ .previousSlide{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -210px;
+    left:  -90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+ }
 
 
 .ModalButton{
-   /* border: 1px solid blue; */
-    background-color: black;
-    border: 1px solid black;
-    height: 50%;
+    height: 100%;
     width: 100%;
     display: flex;
-    background-color: black;
+    background-color: #1f1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#e8ebe8 60%, rgb(124, 119, 119) );
     
+}
 
-   
+.more{
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.closer{
+    width: 130px;
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.paginationDots{
+    width: 40% ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Dots{
+    color: white;
+    width: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 3px;
+    border: 1px solid black;
+    padding: 4px;
+}
+.paginationItem:hover{
+    background-color: black;
 }
 
 .ModalInfo span:first-child{
@@ -70,25 +124,15 @@
     font-weight: bold;
 }
  
-.more, .closer{
-    height: 100%;
-    /* background-color: #000; */
-    width: 50%;
-    display: flex;
-    color: white;   
-    align-items: center;
-    justify-content: center;
-   
-    border: none;
-    font-weight: bold;
-    font-size: 15px;
-    /* cursor: pointer; */
-}
-
+ 
 .more:hover, .closer:hover{
     color: #69e678;
-    /* border: 1px solid #ccc; */
-    
-    
+   background-color: #000;
     cursor: pointer;
+}
+
+
+.motion{
+    height: 450px;
+    width: auto;
 }
