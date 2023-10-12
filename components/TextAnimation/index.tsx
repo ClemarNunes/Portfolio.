@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import Typewriter from 'typewriter-effect'
 import styles from './TextAnimation.module.css'
-import Link from 'next/link';
-
 
 const TextAnimation = () => {
 
@@ -14,7 +12,6 @@ const TextAnimation = () => {
         
     })
 
-     
 
     return(
         <div className={styles.Container}>
@@ -46,10 +43,13 @@ const TextAnimation = () => {
                            
                         ],
                         
-                        
-                        
                     }} />
                     
+                </div>
+
+                <div className={styles.medias}>
+                    <div className={styles.gitMidia} ><a href="https://github.com/ClemarNunes"><img src="/assets/github2.png" height={'auto'} width={40} alt="" /></a></div>
+                   <div className={styles.linkMedia}><a href="https://www.linkedin.com/in/clemar-nunes-5a5a39290/"> <img src="/assets/linkedin3.png" height={'auto'} width={40} alt="" /></a></div>
                 </div>
                 
 
@@ -57,7 +57,7 @@ const TextAnimation = () => {
 
             <div className={styles.foto}>
                
-                <img src="/assets/2.png"  alt="" />
+                <img src="/assets/port2.png"  height={'auto'} width={400} alt="" />
             </div>
 
             

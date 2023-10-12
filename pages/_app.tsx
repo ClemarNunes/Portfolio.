@@ -1,9 +1,9 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
-import { Layout }  from '../components/Layout'
-import { motion, AnimatePresence } from 'framer-motion'
-import { useRouter } from 'next/router'
-import './global.css'
+import '../styles/globals.css';
+import type { AppProps } from 'next/app';
+import { Layout }  from '../components/Layout';
+import { motion, AnimatePresence } from 'framer-motion';
+import { useRouter } from 'next/router';
+import './global.css';
 
  
 
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         initial={{scaleY: 1}}
         animate={{scaleY: 0}}
         exit={{scaleY: 0}}
-        transition={{duration: 0.4, ease: [0.22, 1, 0.36, 1]}}
+        transition={{duration: 0.6, ease: [0.22, 1, 0.36, 1]}}
       ></motion.div>
      
     </motion.div>

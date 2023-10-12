@@ -1,0 +1,81 @@
+.Container {
+    flex-direction: row;
+    height: 100%;
+    overflow: auto;
+}
+
+.ContainerArea {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.Skills {
+    height: 65%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-top: 30px;
+    background-color: #181818;
+    background-color: #000;
+    color: #fff;
+    z-index: 1;
+    background: linear-gradient(290deg, #061408 33%, #2f3631 66%, #17161d 100%);
+    box-shadow: 0px 0px 10px black;
+}
+
+.skillsTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(66, 70, 70);
+    color: white;
+    height: 96%;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 30px;
+    padding: 30px;
+    overflow: hidden;
+    background: linear-gradient(290deg, #061408 33%, #464a4b 66%, #17161d 100%);
+    box-shadow: 0px 0px 10px black;
+
+}
+
+.skillsBody {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    width: 300px;
+    height: 90px;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.test {
+    height: 70px;
+    width: 60px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.test:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 3px white;
+
+}
